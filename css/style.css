@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background: coral;
+}
+
+#popUp{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: skyblue;
+    padding: 5rem;
+    border-radius: 0.8rem;
+    display: none;
+}
+
+#imageContainer img{
+    width: 500px;
+    height: 500px;
+}
